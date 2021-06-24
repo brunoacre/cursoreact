@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfilStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Perfil</title></head>
+<body>
+    <div id="titulo">
+        <h1>Educação Financeira</h1>
+    </div>
+
+    <div id="check">
+        <label for="" class="label">Quanto tempo por dia você pode estudar finanças?</label>
+        <input type="text" class="input"/>
+
+        <label for="" class="label">Qual dos investimentos abaixo você já realizou?</label>
+        <div class="item">
+            <input type="checkbox" id="tipos" name="poupanca">
+            <label for="poupanca">Poupança</label>
+        </div> 
+        <div class="item">      
+            <input type="checkbox" id="tipos" name="fundos">
+            <label for="fundos">Fundos</label>
+        </div>
+        <div class="item">      
+            <input type="checkbox" id="tipos" name="acoes">
+            <label for="acoes">Ações</label>
+        </div>  
+        <div class="item">
+            <input type="checkbox" id="tipos" name="fi">
+            <label for="fi">Fundos Imobiliários</label>
+        </div>
+
+        <label for="" class="label">Quais temas você tem interesse?</label>
+        <div class="item">
+            <input type="checkbox" id="temas" name="fixa">
+            <label for="fixa">Renda Fixa</label>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="temas" name="variavel">
+            <label for="variavel">Renda Variável</label>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="temas" name="cripto">
+            <label for="cripto">Criptomoedas</label>
+        </div>
+
+        <a href="#">
+            <input type="button" value="Gravar Perfil" id="gravar">
+        </a>
+        
+    </div>
+
+    <footer id="rodape">
+        <img src="/imgs/help.png" alt="#">
+    </footer>
+</body>
+</html>
